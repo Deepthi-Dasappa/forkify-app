@@ -1,0 +1,25 @@
+{
+  "name": "forkify_application",
+  "version": "1.0.0",
+  "description": "application to know and learn how to make a recipe",
+  "default": "./code/index.html",
+  "scripts": {
+    "start": "parcel ./code/index.html",
+    "build": "parcel build ./code/index.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Deepthi Dasappa",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.80.3"
+  }
+}
